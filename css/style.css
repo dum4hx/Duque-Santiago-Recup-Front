@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+/* Media query */
 @media (max-width: 530px) {
   .right-top-bar {
     margin-top: 10px;
@@ -55,4 +56,12 @@
 .nav-login:hover {
   opacity: 0.8;
 }
+
 /* id selectors */
+#img-container {
+  height: 86vh;
+  background-image: url("../img/index_background.jpg");
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+}
