@@ -39,6 +39,11 @@ label {
   color: var(--secondary-red) !important;
 }
 
+.add-opt {
+  text-decoration: none;
+  color: var(--secondary-blue);
+}
+
 .btn-primary {
   width: 200px !important;
   background-color: var(--primary-blue) !important;
