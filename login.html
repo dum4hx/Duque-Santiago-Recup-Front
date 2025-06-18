@@ -33,16 +33,17 @@
       <main>
         <div class="d-flex flex-column justify-content-center mt-5">
           <hr class="w-75 mx-auto" />
-          <form autocomplete="off">
-            <div>
-              <label for="documento">DOCUMENTO</label>
-              <input type="text" id="documento" />
+          <form class="d-flex flex-column align-items-center" autocomplete="off">
+            <div class="d-flex flex-column align-items-center">
+              <label for="documento" class="form-label text-center">DOCUMENTO</label>
+              <input type="text" class="form-control mb-3" id="documento" />
             </div>
-            <div>
-              <label for="contrasena">CONTRASEÑA</label>
-              <input type="password" id="contrasena" />
+
+            <div class="d-flex flex-column align-items-center">
+              <label for="contrasena" class="form-label text-center">CONTRASEÑA</label>
+              <input type="password" class="form-control mb-3" id="contrasena" />
             </div>
-            <button type="submit">Entrar</button>
+            <button type="submit" class="btn btn-primary">Entrar</button>
           </form>
         </div>
       </main>
