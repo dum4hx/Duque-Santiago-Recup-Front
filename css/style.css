@@ -10,8 +10,63 @@
     margin-top: 10px;
   }
 }
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+  .form-col {
+    width: 100% !important;
+  }
+}
+
+/* Section titles */
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--secondary-blue);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* File input */
+.custom-file-input {
+  width: 100%;
+  min-width: 250px;
+}
+/* Footer fix */
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+/* File info text */
+.file-info {
+  font-size: 0.85rem;
+  color: var(--primary-red);
+  margin-bottom: 0.5rem;
+}
+/* Description textarea */
+.desc-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+/* Orange underline for section titles */
+.section-title {
+  border-bottom: 2px solid var(--primary-red);
+  padding-bottom: 0.2rem;
+  margin-bottom: 1rem;
+}
 
 /* Tag selector */
+body {
+  min-height: 100vh;
+}
+
 h1 {
   font-size: 30px !important;
 }
@@ -23,6 +78,7 @@ h6 {
 
 footer {
   background-color: var(--secondary-blue);
+  margin-top: 155.5px;
 }
 
 label {
@@ -104,6 +160,29 @@ label {
 .secondary-text {
   color: var(--primary-red);
 }
+
+/* Icon color for section titles */
+.section-title i {
+  color: var(--secondary-blue);
+  font-size: 1.3rem;
+}
+
+/* Label color and icon */
+.form-label {
+  color: var(--primary-red);
+  font-size: 0.95rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+/* Required field note */
+.required-note {
+  color: var(--primary-red);
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+}
+
 .navbar {
   box-shadow: 2px 6px 20px var(--primary-red);
 }
